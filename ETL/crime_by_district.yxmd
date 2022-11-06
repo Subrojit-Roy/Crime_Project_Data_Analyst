@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="294" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * 
+from DIM_DISTRICT</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-9I2NENV\SQLEXPRESS
+Catalog=Crime_Source
+Query=select * 
+from DIM_DISTRICT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DISTRICT_ID" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from DIM_DISTRICT" type="Int32" />
+            <Field name="DISTRICT_NAME" size="50" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from DIM_DISTRICT" type="V_String" />
+            <Field name="STATE_ID" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from DIM_DISTRICT" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * 
+from DIM_STATE</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-9I2NENV\SQLEXPRESS
+Catalog=Crime_Source
+Query=select * 
+from DIM_STATE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="STATE_ID" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from DIM_STATE" type="Int32" />
+            <Field name="STATE_NAME" size="50" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from DIM_STATE" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="558" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * 
+from FACT_DISTRICT</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-9I2NENV\SQLEXPRESS
+Catalog=Crime_Source
+Query=select * 
+from FACT_DISTRIC...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="state_id" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="district_id" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="year" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Murder" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Assault_on_women" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Kidnapping" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Dacoity" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Robbery" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Arson" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Hurt" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_POA" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_PCR" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+            <Field name="count_Other_Crimes" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_DISTRICT" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="810" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * 
+from FACT_STATE</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-9I2NENV\SQLEXPRESS
+Catalog=Crime_Source
+Query=select * 
+from FACT_STATE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="state_id" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="year" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Murder" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Assault_on_women" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Kidnapping" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Dacoity" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Robbery" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Arson" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Hurt" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_POA" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_PCR" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+            <Field name="count_Other_Crimes" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Crime_Source;Data Source=DESKTOP-9I2NENV\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-9I2NENV;Use Encryption for Data=False;Tag with column collation when possible=False|||select * &#xA;from FACT_STATE" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dell\AppData\Local\Temp\Engine_17036_8b87e9ca9dbcff4e92fbd63788df2a28_\Engine_17036_edfa06eb479b224a887846914e7111d3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dell\AppData\Local\Temp\Engine_17036_8b87e9ca9dbcff4e92fbd63788df2a28_\Engine_17036_39bfdc4404f50e41847cbbf3510bff6c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dell\AppData\Local\Temp\Engine_17036_8b87e9ca9dbcff4e92fbd63788df2a28_\Engine_17036_5629f644bd9c3b4a922458c766bdc4fb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dell\AppData\Local\Temp\Engine_17036_8b87e9ca9dbcff4e92fbd63788df2a28_\Engine_17036_6218461f7956214c8af06e67c52a1d44~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="186" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">E:\ey\ey capstone project\CRIME_BY_DISTRICT_MINI_PROJECT\target\dim_state.xlsx|||dim_state</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dim_state.xlsx
+Query=dim_state</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">E:\ey\ey capstone project\CRIME_BY_DISTRICT_MINI_PROJECT\target\dim_district.xlsx|||dim_district</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dim_district.xlsx
+Query=dim_district</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">E:\ey\ey capstone project\CRIME_BY_DISTRICT_MINI_PROJECT\target\fact_district.xlsx|||fact_district</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>fact_district.xlsx
+Query=fact_district</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="978" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">E:\ey\ey capstone project\CRIME_BY_DISTRICT_MINI_PROJECT\target\fact_state.xlsx|||fact_state</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>fact_state.xlsx
+Query=fact_state</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b965ea9c-f4a4-45fe-a4d8-bf9710638d15" />
+      <Telemetry>
+        <PreviousWorkflowId value="c39d9e86-ec80-4a1a-9841-82e2dcfd41d8" />
+        <OriginWorkflowId value="c39d9e86-ec80-4a1a-9841-82e2dcfd41d8" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
